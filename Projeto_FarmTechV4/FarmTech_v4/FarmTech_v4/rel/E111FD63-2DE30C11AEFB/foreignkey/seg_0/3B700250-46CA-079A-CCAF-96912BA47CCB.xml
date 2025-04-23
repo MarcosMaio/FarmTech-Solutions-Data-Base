@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B700250-46CA-079A-CCAF-96912BA47CCB" containerWithKeyObject="4A4721C9-9CD8-BAA7-B652-79D2D5D41137" localFKIndex="63C534A8-2407-7706-4477-9C1D438A34DE" name="Sensores_Quadrantes_FK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:11:14 UTC</createdTime>
+<generatorID>3499155D-77B3-600A-3602-5F02C1F8E45F</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<referredTableLongName>Quadrantes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFA91AD4-530E-0512-44D4-596D0006FDE7</referredTableID>
+<keyObject>7FAF39EA-937E-C54A-8FAD-016BEA846321</keyObject>
+<referredKeyID>7FAF39EA-937E-C54A-8FAD-016BEA846321</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_quadra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

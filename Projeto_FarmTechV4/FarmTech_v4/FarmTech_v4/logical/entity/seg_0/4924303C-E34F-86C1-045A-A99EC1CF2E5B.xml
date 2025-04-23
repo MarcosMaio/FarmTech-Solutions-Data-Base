@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4924303C-E34F-86C1-045A-A99EC1CF2E5B" name="Quadrantes">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>BFA91AD4-530E-0512-44D4-596D0006FDE7</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID quadra" id="2FF2BD9F-DB36-E134-F593-5B8D1D1F7EA4">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>1D974289-F7FC-150D-141A-E073668C4697</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao quadra" id="027C37B5-7E68-8A09-59E2-7A5A48069F45">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>16B71024-56B9-19F0-BF44-FC7463A1C5AB</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Acesso" id="C6D7D737-0DB4-1EDA-F780-1548083E4A1A">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>FAE4514A-C21A-F7A4-E0F7-34741550EEE9</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cultivos ID cultivo" id="346F94C8-B11B-4A22-29DF-E6931B9F0EC2">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:02:47 UTC</createdTime>
+<generatorID>C62D7D59-98DC-6F22-332E-48D51292B784</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<referedAttribute>D9DC017D-48D2-392E-8CA2-72D538E8DB9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Areas plantio ID area" id="74F80A4F-38AD-49F2-083E-87151D7DBB23">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:03:10 UTC</createdTime>
+<generatorID>FF65A8D6-B8AC-8696-639B-D1C1895BECA4</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<referedAttribute>D7F410A8-7B91-4BD9-ECFE-32B156FC8086</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B14C0E9-C659-753D-05DF-A45F6366C09E" name="Quadrantes PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>7FAF39EA-937E-C54A-8FAD-016BEA846321</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FF2BD9F-DB36-E134-F593-5B8D1D1F7EA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

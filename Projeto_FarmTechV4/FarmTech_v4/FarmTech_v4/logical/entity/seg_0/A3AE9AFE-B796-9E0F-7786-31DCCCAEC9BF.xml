@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3AE9AFE-B796-9E0F-7786-31DCCCAEC9BF" name="Areas plantio">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>055456C1-0DFD-7A0C-8B3B-8FEF1F79EA1B</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID area" id="D7F410A8-7B91-4BD9-ECFE-32B156FC8086">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>8663B4A9-B242-EA28-DAB9-AB75C2969946</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Geometria" id="8619D489-8041-B71C-F096-A033EB84350D">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>E19A598E-3A7C-9D9A-85E6-ADB59F630E39</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Base" id="952539E2-919E-A1E4-EA02-EE4EBFDD442E">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>671B049E-0CA2-D6A6-3C15-E4E0E04B40EC</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="E38217EF-EDF9-CE4A-B42C-371174DD2319">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>3F7BCBC9-677F-A9CA-FB5C-58D79F71511D</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Area" id="686DAD8F-881B-9066-6761-FEA5E80DB7BA">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>F3257A71-7593-1394-4ABC-4CA3B9559496</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidade" id="4506E1D4-36DA-B590-DD57-C4B54C6C2FCC">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>3D982C0F-8BB2-A451-8592-DE0D84E5BFE4</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0649185C-0BF2-C569-E8C2-765878C01BF7" name="Areas plantio PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>8DAB6F44-3DA9-C379-867C-244C4EDD5F8C</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7F410A8-7B91-4BD9-ECFE-32B156FC8086</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

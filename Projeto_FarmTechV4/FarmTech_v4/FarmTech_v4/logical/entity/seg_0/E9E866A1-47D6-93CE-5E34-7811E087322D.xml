@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E866A1-47D6-93CE-5E34-7811E087322D" name="NPK coleta">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>89D0052C-A9D3-E6FB-C37F-5D1553EA8112</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID coleta nutriente" id="9B31175C-240F-04AD-F72F-08038DAD1139">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>9430674D-B80E-9DB2-3639-CB2A3BBF92DE</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt log" id="3E4AC732-1407-7CFC-E442-E69F21DE4A02">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>D4F4E9AF-D198-8EE8-E634-3C56FCC13A9C</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo desc" id="5933EB44-6EAD-D682-77C5-08DCADB58268">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>0C8147B8-248C-4AFF-1AC2-7D9AB54A779B</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nitrogenio" id="7C2FAE1E-0A7D-59B9-660B-CE42A7DEB175">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>DBDCF9FE-2D0B-100D-1486-75FDFD9361CB</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fosforo" id="B36D882C-4199-7F46-2FF8-973E81683F4E">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>9B4B2E73-8296-2296-E356-B759EA042889</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Potassio" id="23ABE699-8E9B-EAC2-7737-69777D11A30E">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>95DECC84-F15D-4403-CD88-9E7DC617F8D1</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidades" id="679018F8-8F3B-FE06-C36D-F50FEB011A05">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>14C6F484-6477-9929-F6F2-3B5FD2D3FA62</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID sensor" id="235E8A9E-1BD1-0216-3DCA-AABCE2CC18B6">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:10:53 UTC</createdTime>
+<generatorID>F534B9C0-97E0-C94C-50DA-AC50C2E8BDE9</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<referedAttribute>6E05CBF2-0DED-D9D3-BFC5-E7A8CC32C40F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B465F7F8-3163-F882-1095-713104C34D91" name="NPK coleta PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>BF5DE1D6-7FD4-E427-6812-592F810348E8</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B31175C-240F-04AD-F72F-08038DAD1139</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57543B3F-A1C1-67D5-15F7-B276F1004686" name="Cultivos">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:29:16 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cultivo" id="8B7B1728-6EA3-AB3F-5214-8FBEE8933C8D">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:30:46 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantidade_plantio" id="2006455A-2B08-1F16-CAFB-B76D68B038E5">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:34:04 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidade" id="B88871A0-E346-ADE8-A1E9-07E4FB4368AF">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:33:02 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Culturas_ID_cultura" id="B6B0DEA4-E233-FD11-5B4C-96481A7DF257">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:54:20 UTC</createdTime>
+<generatorID>BC33CFF1-2BAD-3CC7-B9A4-9A6DA4C498F0</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A7C483B-9BAC-375D-B416-B4AD42C4F726" referredColumn="C725C8BF-D8A3-C550-D2BC-42AA363F7666"/>
+</associations>
+</Column>
+<Column name="Areas_plantio_ID_area" id="0EC505B2-69E1-F932-0D2D-65E1BD79DE0C">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:04:40 UTC</createdTime>
+<generatorID>AC314C30-491A-934E-3714-2D83509C8935</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB6CBE0F-4D6B-9F72-F25E-E886EF3AEA11" referredColumn="8663B4A9-B242-EA28-DAB9-AB75C2969946"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="472D5CEA-CC4E-1E06-E7AB-8EA1ACA10316" name="Cultivos_PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:30:46 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B7B1728-6EA3-AB3F-5214-8FBEE8933C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45CDCC7A-1FBD-345C-01E6-4B409F1E5FC1" name="Cultivos_Culturas_FK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:54:20 UTC</createdTime>
+<generatorID>A67BEDF3-AB46-F0F8-DB3B-2286E24C38B2</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6B0DEA4-E233-FD11-5B4C-96481A7DF257"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91DD57A6-66ED-03D1-BCE9-FD9A30C57C20" name="Cultivos_Areas_plantio_FK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:04:40 UTC</createdTime>
+<generatorID>32F86910-057C-5EE7-9721-112B84B0217D</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC505B2-69E1-F932-0D2D-65E1BD79DE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

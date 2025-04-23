@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2E8CE28-198F-1B21-E386-7CF9F5875A7B" name="Sensores">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>4A4721C9-9CD8-BAA7-B652-79D2D5D41137</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID sensor" id="6E05CBF2-0DED-D9D3-BFC5-E7A8CC32C40F">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>3F08F341-9BB1-57FD-B260-3886150DD10C</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt aquisicao" id="C7E0913F-1C9A-CABF-0258-5C3C2D8BFB11">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>2AAAB444-2AA0-36CC-03FA-3B64E4CF97D8</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt manutencao" id="621D7EFC-03B8-6492-7B92-0AB42AF67CAC">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>9D46DFAB-5F2B-86CA-4470-2EE15FD383D2</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID area" id="834389DC-D715-FAAD-D852-5F27D776E226">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:08:28 UTC</createdTime>
+<generatorID>23953D39-03AA-A0AA-19F1-1A5354B0C315</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<referedAttribute>D7F410A8-7B91-4BD9-ECFE-32B156FC8086</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID produto" id="DBD3B60C-A152-3302-B566-A9CB1890F63D">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:08:45 UTC</createdTime>
+<generatorID>63D2BA48-2ACD-7B0D-5F80-0A4E32E6DA67</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<referedAttribute>86C1489E-99DE-9EFF-796D-A2406D48E675</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID quadra" id="97304560-9105-BB18-0886-E7D23C902F79">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:10:07 UTC</createdTime>
+<generatorID>3499155D-77B3-600A-3602-5F02C1F8E45F</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2FF2BD9F-DB36-E134-F593-5B8D1D1F7EA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F92394E9-0589-02FA-73A0-951B03C33694" name="Sensores PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>B30FD01F-F570-3C4B-8453-A26C6413798D</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E05CBF2-0DED-D9D3-BFC5-E7A8CC32C40F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

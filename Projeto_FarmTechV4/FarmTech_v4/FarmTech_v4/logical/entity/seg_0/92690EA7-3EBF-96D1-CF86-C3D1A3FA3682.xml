@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92690EA7-3EBF-96D1-CF86-C3D1A3FA3682" name="PH coleta">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>C312EAA1-AD95-2DA7-033B-9C841462C920</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID coleta ph" id="6C70E4C0-FF1C-EA63-8E5D-F91411E932B3">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>E9830AC9-D647-556F-0D3E-8DCB5147FB34</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt log" id="73922CB5-D5F9-064C-8E18-183E2ECEAD5D">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>F2CFA8DB-F97C-C21E-A0AC-5412D2BE5959</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo desc" id="F0FE6B33-8FD2-0E7C-85A7-8D844068FBB0">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>9B5FC0C9-4709-DF21-AA7D-6D66DD061F1E</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ph" id="D1997EEF-6C3A-9578-A360-E5564AC2CB4C">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>D6D820FE-4552-41BD-C0FF-AC9BFA29E899</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Temperatura" id="EDDC775C-540C-E546-7586-4AAD0B3ECE83">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>92631E27-82D5-88FE-F5CD-4B5573E7F5F6</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NTU" id="2D55B37A-EA2C-942A-350B-71068B10F876">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>BB8DDBDE-A011-29E7-D649-C9126FE58C17</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Condutividade" id="1C60171B-3FA5-23AF-862B-9798F4E40BE4">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>62B27A15-AC01-8C4B-B5A4-2ED1B7E7C058</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidades" id="EBFE727D-FC52-5ABA-DA33-A6E6A3B9CE4A">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>E381F3DB-3025-BAED-43B6-2AC2E06A5452</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID sensor" id="F4320419-DEE7-8168-3CCD-2A9C1F565161">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:10:45 UTC</createdTime>
+<generatorID>ED8FEC16-EFC1-4A79-AF0F-0D516B27F049</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<referedAttribute>6E05CBF2-0DED-D9D3-BFC5-E7A8CC32C40F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="974E7199-F9D3-E6C5-1A57-8E22A7C121AE" name="PH coleta PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:52:11 UTC</createdTime>
+<generatorID>3DD66072-912A-04DF-0853-3AA4B42F4F05</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C70E4C0-FF1C-EA63-8E5D-F91411E932B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

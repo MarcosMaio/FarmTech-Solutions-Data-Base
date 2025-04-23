@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FAAF3C6-9F20-174A-5854-20E64F0A706D" name="Umidade_coleta">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:43:07 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_coleta_umidade" id="751C10B7-50FC-2837-0747-8D52825EB0CE">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:45:29 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_log" id="30C630A7-AFC2-5A0F-3B14-EFB04E6220D5">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:45:46 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_desc" id="2E4072CE-E73E-B129-5359-A0BBFF4BB04F">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:45:46 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Umidade" id="92DD9B91-D1F9-F26F-26B3-3221E16D5E08">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:46:36 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Temperatura" id="1DEB7CC5-FC39-19C9-AA6F-76976100FB41">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:46:48 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidades" id="D5B38406-C032-6E65-038B-BBE2177AC698">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:47:03 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sensores_ID_sensor" id="519B4491-F173-5B24-FB29-2BAD55B843C6">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:11:14 UTC</createdTime>
+<generatorID>4A685B83-F071-C8B0-17C4-A5CA099CF735</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ECA57AE-5582-9AFC-491F-D8BED547CD1D" referredColumn="3F08F341-9BB1-57FD-B260-3886150DD10C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="746B90D2-D764-2F44-7F1C-F73437B07CB6" name="Umidade_coleta_PK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 00:45:29 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="751C10B7-50FC-2837-0747-8D52825EB0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE86F471-DD64-5C48-7083-193B7BFF8C49" name="Umidade_coleta_Sensores_FK">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:11:14 UTC</createdTime>
+<generatorID>82B80923-CDDF-4D72-0918-4FA46B03E386</generatorID>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="519B4491-F173-5B24-FB29-2BAD55B843C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

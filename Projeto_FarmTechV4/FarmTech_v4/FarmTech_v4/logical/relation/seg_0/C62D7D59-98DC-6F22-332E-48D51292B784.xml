@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Quadrantes Cultivos FK" directorySegmentName="seg_0" id="C62D7D59-98DC-6F22-332E-48D51292B784">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:02:47 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<sourcePk>B8D42C06-190B-31D6-6799-95B67B448A56</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B581E93-A55E-93BE-58EF-F7996D70D3EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4924303C-E34F-86C1-045A-A99EC1CF2E5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

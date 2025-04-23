@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cultivos Areas plantio FK" directorySegmentName="seg_0" id="32F86910-057C-5EE7-9721-112B84B0217D">
+<createdBy>gbrvs</createdBy>
+<createdTime>2025-04-23 01:02:00 UTC</createdTime>
+<ownerDesignName>FarmTech_v4</ownerDesignName>
+<engineerTo>
+<item key="E111FD63-4C2E-1219-5E23-2DE30C11AEFB" value="true"/>
+</engineerTo>
+<sourcePk>0649185C-0BF2-C569-E8C2-765878C01BF7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3AE9AFE-B796-9E0F-7786-31DCCCAEC9BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B581E93-A55E-93BE-58EF-F7996D70D3EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
