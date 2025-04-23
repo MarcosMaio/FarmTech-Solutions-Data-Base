@@ -1,4 +1,4 @@
-# FarmTech Phase 2 – Modelo Entidade-Relacionamento (MER)
+# FarmTech-Solutions-Data-Base – Modelo Entidade-Relacionamento (MER)
 
 ## Visão Geral
 Este documento apresenta o modelo entidade-relacionamento (MER) para o banco de dados da fase 2 do projeto FarmTech, detalhando entidades, atributos e relacionamentos necessários para suportar o gerenciamento de culturas, áreas de plantio, sensores e coletas de dados ambientais.  
